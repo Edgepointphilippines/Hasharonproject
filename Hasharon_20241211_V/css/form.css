@@ -1,0 +1,20 @@
+#signinForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+#signinForm a{
+    font-size: 12px;
+}
+#submit input{
+    background-color: #A2CA71;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 30px 5px 30px;
+    transition: 1s;
+    border: none;
+
+}

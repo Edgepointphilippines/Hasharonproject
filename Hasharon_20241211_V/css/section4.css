@@ -1,0 +1,40 @@
+#section4{
+    height: 100%;
+    padding-top: 3%;
+    margin-top: 10;
+    
+}
+
+#forForm{
+    display: flex;
+    
+}
+
+#contForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contForm form{
+    display: grid;
+    
+}
+#contForm form div{
+    margin-top: 2%;
+
+}
+#submitForm #submit{
+    background-color: #A2CA71;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 30px 5px 30px;
+    transition: 1s;
+    border: none;
+}
+#submitForm #submit:hover{
+    background-color: transparent;
+    color:#A2CA71;
+    border: 1px solid #A2CA71 ;
+}
