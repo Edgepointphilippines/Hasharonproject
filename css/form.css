@@ -10,8 +10,9 @@
 }
 #signinForm label{
     font-size: 12px;
+    margin-top: 10px;
 }
-#submit #login{
+#submit{
     background-color: #A2CA71;
     border-radius: 10px;
     text-decoration: none;
@@ -20,6 +21,7 @@
     transition: 1s;
     border: none;
     font-size: 12px;
+    margin-top: 10px;
 
 }
 #signinForm form{
