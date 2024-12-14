@@ -1,0 +1,28 @@
+ /* formSignup */
+ #formSignup{
+    margin: 15%;
+  }
+  #formSignup label{
+   margin: 0;
+  }
+  
+  #formSignup input{
+    border:.2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  .modal-content{
+    background-color:black;
+  }
+  #typeOfUser{
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .modal-content{
+    background-color:rgba(0, 100, 8, 0.171) !important;
+    backdrop-filter: blur(10px);
+  }

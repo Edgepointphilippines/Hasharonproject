@@ -12,7 +12,9 @@
     padding: 5px 30px 5px 30px;
     transition: 1s;
     border: 1px solid #387F39;
+
 }
+
 #forSignin:hover{
     background-color: transparent;
     color:#387F39;
@@ -52,9 +54,18 @@
 }
 .nav-item a{
     font-weight: 400;
-    color: gray;
+    color: rgb(247, 0, 0);
+    border-radius: 10px;
 }
 .nav-item a:hover{
-    color: black;
+    background-color: #A2CA71;
+    color: rgb(255, 255, 255) !important;
     font-weight: 500;
+    border-radius: 10px;
+    fill: white;
 }
+.nav-item svg{
+    margin: 10px;
+
+}
+

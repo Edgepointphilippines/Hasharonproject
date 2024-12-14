@@ -1,4 +1,4 @@
-#section4{
+/* #section4{
     height: 100%;
     padding-top: 3%;
     margin-top: 10;
@@ -37,4 +37,57 @@
     background-color: transparent;
     color:#A2CA71;
     border: 1px solid #A2CA71 ;
+} */
+
+
+#svg-icon img{
+    width: 20px;
+    margin: 5px;
 }
+#svg-icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#section4 {
+    background-color: #A2CA71;
+    padding-top: 10px;
+  }
+  .box {
+    position: fixed;
+    top: 0;
+    transform: rotate(80deg); 
+    left: 0;
+    z-index: 100;
+  }
+  
+  .wave {
+    position: absolute;
+    opacity: .4;
+    width: 1500px;
+    height: 1300px;
+    margin-left: 150px;
+    margin-top: -10px;
+    border-radius: 43%;
+    
+  }
+  
+  @keyframes rotate {
+    from {transform: rotate(0deg);}
+    from {transform: rotate(360deg);}
+  }
+  
+  .wave.-one {
+    animation: rotate 10000ms infinite linear;
+    opacity: 5%;
+    background: white;
+ 
+  }
+  
+  .wave.-two {
+    animation: rotate 6000ms infinite linear;
+    opacity: 10%;
+    background: white;
+
+  }
+  

@@ -1,5 +1,7 @@
 #section3{
+  
     height: 100%;
+    box-shadow: -1px -1px  black;
   /*overflow-x: hidden; /* Prevent overflow */
   }
 
@@ -15,11 +17,12 @@
     flex-direction: column; /* Stack items vertically */
     max-width: 100%; /* Adjust this value as needed */
     height: 100%
+    
     }
   
-    #divider{
+    /* #divider{
       column-gap: ;
-    }
+    } */
   
   .category:hover {
     transform: scale(1.05);

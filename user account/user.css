@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #387F39;
+    padding: 10px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar #logo-icon{
+    width: 40px;
+    filter: drop-shadow(1px 1px 1px #ffffff); 
+}
+#navbar #cart-icon{
+    width: 40px;
+    filter: drop-shadow(1px 1px 1px #000000); 
+}
+#container{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    padding: 10px;
+    
+}
+#container #content{
+    height: 100vh;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    
+
+}
+#content #content2{
+    background-color: rgb(255, 255, 255);
+}
+
+#content #Avatar img{
+    width: 20px;
+}
