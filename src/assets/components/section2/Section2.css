@@ -1,0 +1,6 @@
+#about{
+    font-weight: 600;
+    text-shadow: 
+    2px 2px 4px rgba(1, 0, 0, 0.7),   /* Simulated inset shadow */
+    -2px -2px 4px rgba(255, 255, 255, 0.5); /* Highlight */
+}

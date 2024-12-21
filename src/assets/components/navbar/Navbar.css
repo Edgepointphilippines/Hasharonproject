@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#forLogo img{
+    width: 50px;
+}
+
+#forSignin  {
+    background-color: #387F39;
+    border-radius: 8px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 30px 5px 30px;
+    transition: 1s;
+    border: 1px solid #387F39;
+
+}
+
+#forSignin:hover{
+    background-color: transparent;
+    color:#387F39;
+    border: 1px solid #387F39 ;
+}
+
+#signinCart button  {
+    background-color: #387F39;
+    border-radius: 12px;
+    text-decoration: none;
+    color:white;
+    padding: 7px 30px 7px 30px;
+    transition: 1s;
+    border: 1px solid #387F39;
+}
+#signinCart button:hover{
+    background-color: transparent;
+    color:#387F39;
+    border: 1px solid #387F39 ;
+}
+
+#signinCart img{
+    width: 30px;
+    background-color:#387F39;
+    border-radius: 10%;
+}
+#signinCart img:hover{
+    scale:1.05;
+}
+#menu button{
+    background-color: transparent;
+    border: none;
+}
+#menu img{
+    width: 30px;
+
+}
+.nav-item a{
+    font-weight: 400;
+    color: rgb(247, 0, 0);
+    border-radius: 10px;
+}
+.nav-item a:hover{
+    background-color: #A2CA71;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    border-radius: 10px;
+    fill: white;
+}
+.nav-item svg{
+    margin: 10px;
+
+}
+.profile a svg{
+    margin-right: 20px;
+}
+
+/* signin */
+#signin{
+   background-color: #387F39;
+   color: rgb(255, 255, 255);
+   box-shadow: 1px 1px 6px black;
+}
+
+#cancel{
+    color: rgb(0, 0, 0);
+ 
+}
